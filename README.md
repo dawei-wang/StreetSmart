@@ -24,7 +24,7 @@ This game allows visually impaired users to practice crossing streets safely and
 ELEVENLABS_API_KEY=YOUR_API_KEY
 
 5. Run the app
-   streamlit run Street-Smart.py
+   py -m streamlit run Street-Smart.py
 
 The game will now be running on http://localhost:8501.
 
