@@ -70,10 +70,10 @@ with col2:
             q["question"], voice=selected_voice))
         st.write(q["question"])
 
-        # Replay audio
-        replay = st.button("Replay Audio")
-        if replay:
-            elevenlabs.play(elevenlabs.generate(q["question"]))
+        # # Replay audio
+        # replay = st.button("Replay Audio")
+        # if replay:
+        #     elevenlabs.play(elevenlabs.generate(q["question"]))
 
     # Get user selection
         selection = st.radio(
@@ -84,14 +84,14 @@ with col2:
     # Read back selection
         elevenlabs.play(elevenlabs.generate(f"You selected: {selection}"))
 
-    # Submit answer
-    submit = st.button("Submit Answer")
-    if submit:
+    # # Submit answer
+    # submit = st.button("Submit Answer")
+    # if submit:
 
-        if selection == q["answer"]:
-            st.success("Correct!")
-            st.session_state["points"] += 10
+    #     if selection == q["answer"]:
+    #         st.success("Correct!")
+    #         st.session_state["points"] += 10
 
-        else:
-            st.error("Incorrect!")
+    #     else:
+    #         st.error("Incorrect!")
 st.experimental_rerun()
