@@ -11,7 +11,7 @@ This game allows visually impaired users to practice crossing streets safely and
 ## Installation
 
 1. Clone the repository
-   git clone https://github.com/yourname/StreetSmart
+   `git clone https://github.com/dawei-wang/StreetSmart`
 
 2. Navigate into the project directory
    cd StreetSmart
