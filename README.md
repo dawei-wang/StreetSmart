@@ -17,7 +17,7 @@ This game allows visually impaired users to practice crossing streets safely and
    `cd StreetSmart`
 
 3. Install dependencies
-   `pip install streamlit elevenlabs python-dotenv --user`
+   `pip install streamlit elevenlabs python-dotenv --user "pydantic==1.*"`
 
 4. Create a `.env` file with your ElevenLabs API key:
 
