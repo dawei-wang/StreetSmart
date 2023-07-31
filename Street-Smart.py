@@ -27,6 +27,11 @@ questions = [
         "choices": ["Route lining", "Shorelining", "Trailing"],
         "answer": "Route lining"
     },
+    {
+        "question": "What technique involves keeping shoulder aligned to wall?",
+        "choices": ["Trailing", "Shorelining", "Route lining"],
+        "answer": "Trailing"
+    }
 ]
 
 
